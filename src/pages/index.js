@@ -5,7 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Button, MuiThemeProvider } from "@material-ui/core"
-import theme from "../pages/gatsby-theme-material-ui-top-layout/theme"
+import theme from "../theme"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`

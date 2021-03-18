@@ -11,7 +11,7 @@ import {
 } from "@material-ui/core"
 import { Menu } from "@material-ui/icons"
 
-import theme from "../pages/gatsby-theme-material-ui-top-layout/theme"
+import theme from "../theme"
 import Nav from "../components/nav"
 import Footer from "../components/footer"
 
